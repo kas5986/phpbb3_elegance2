@@ -1,5 +1,5 @@
 /*
-    Change "none" to "block" (without quotes) to show website title and description in header
+    Change "none" to "inline-block" (without quotes) to show website title and description in header
 */
 #header > p, #header > h1 { display: none; }
 
