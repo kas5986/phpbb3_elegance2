@@ -32,15 +32,18 @@
 
 #header > h1 {
     font-size: 24px;
-    color: #d4ecda;
     color: rgba(255, 255, 255, 0.85);
+}
+.old-ie #header > h1 {
+    color: #d4ecda;
 }
 #header > p {
     font-size: 16px;
-    color: #e9f4eb;
     color: rgba(255, 255, 255, 0.7);
 }
-.skiplink { display: none; }
+.old-ie #header > p {
+    color: #e9f4eb;
+}
 
 #page-header {
     background-color: #282828;
@@ -161,21 +164,19 @@
     background: #1c7931 url({T_THEME_PATH}/images/footer.png) 0 0 repeat-x;
 }
 #footer .copyright {
-    color: #000;
     color: rgba(0, 0, 0, 0.8);
     text-shadow: rgba(255, 255, 255, 0.1) 1px 2px 1px;
 }
 #footer .copyright a, #footer .copyright a:visited {
-    color: #000;
     color: rgba(0, 0, 0, 0.8);
     text-decoration: underline;
+}
+.old-ie #footer .copyright, .old-ie #footer .copyright a, .old-ie #footer .copyright a:visited {
+    color: #000;
 }
 #footer .copyright a:hover, #footer .copyright strong a {
     color: #000;
     text-decoration: underline;
-}
-.old-ie #footer .copyright, .old-ie #footer .copyright a {
-    color: #eee !important;
 }
 
 body.simple .copyright {
@@ -233,8 +234,10 @@ body.simple #page-body > h2.solo {
 .nav-links .time { color: #999; }
 
 .old-ie .nav-links {
-    background: url({T_THEME_PATH}/images/content_top.png) top left repeat-x;
-    border-bottom: solid 1px #323232;
+    background: url({T_THEME_PATH}/images/content_top.png) 1px left repeat-x;
+    border-bottom: 1px solid #202020;
+    border-top: 1px solid #383838;
+    margin: 0 -6px;
 }
 .old-ie #footer .nav-links {
     border-bottom-width: 0;

@@ -44,13 +44,11 @@ ul.topiclist li.header {
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    color: #000;
     color: rgba(0, 0, 0, 0.9);
     text-shadow: rgba(255, 255, 255, 0.1) 1px 1px 1px;
     font-family: 'Droid Sans', Verdana;
 }
 ul.topiclist li.header a, ul.topiclist li.header a:visited { 
-    color: #000;
     color: rgba(0, 0, 0, 0.9);
     text-decoration: underline;
 }
@@ -143,12 +141,14 @@ li.row strong {
 }
 
 li.header dt, li.header dd {
-    color: #000;
     color: rgba(0, 0, 0, 0.8) !important;
 	line-height: 1em;
 	border-left-width: 0;
 	margin: 0;
 	padding: 4px 0;
+}
+.old-ie li.header dt, .old-ie li.header dd {
+    color: #000;
 }
 
 li.header dd {
