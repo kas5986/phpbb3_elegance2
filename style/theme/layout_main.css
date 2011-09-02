@@ -32,15 +32,18 @@
 
 #header > h1 {
     font-size: 24px;
-    color: #cadce5;
     color: rgba(255, 255, 255, 0.85);
+}
+.old-ie #header > h1 {
+    color: #cadce5; 
 }
 #header > p {
     font-size: 16px;
-    color: #cadce5;
     color: rgba(255, 255, 255, 0.7);
 }
-.skiplink { display: none; }
+.old-ie #header > p {
+    color: #cadce5;
+}
 
 #page-header {
     background-color: #eee;
@@ -161,21 +164,19 @@
     background: #4685a3 url({T_THEME_PATH}/images/footer.png) 0 0 repeat-x;
 }
 #footer .copyright {
-    color: #eee;
     color: rgba(255, 255, 255, 0.8);
     text-shadow: rgba(0, 0, 0, 0.1) 1px 2px 1px;
 }
 #footer .copyright a, #footer .copyright a:visited {
-    color: #eee;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: underline;
+}
+.old-ie #footer .copyright, .old-ie #footer .copyright a, .old-ie #footer .copyright a:visited {
+    color: #eee;
 }
 #footer .copyright a:hover, #footer .copyright strong a {
     color: #fff;
     text-decoration: underline;
-}
-.old-ie #footer .copyright, .old-ie #footer .copyright a {
-    color: #eee !important;
 }
 
 body.simple .copyright {
