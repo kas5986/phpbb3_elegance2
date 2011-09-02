@@ -363,8 +363,8 @@ fieldset.display-options {
 */
 #old-browser {
     text-align: center;
-    padding: 4px;
-    color: #000;
-    background-color: #faf685;
+    padding: 6px;
+    color: #fff;
+    background-color: #9a2b0a;
 }
-#old-browser a { color: #000 !important; }
+#old-browser a { color: #fff !important; }
