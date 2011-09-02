@@ -158,7 +158,7 @@
     padding-bottom: 6px;
     padding-top: 30px;
     font-size: 11px;
-    color: #666;
+    color: #444;
     max-height: 60px;
     overflow: hidden;
     background: #4685a3 url({T_THEME_PATH}/images/footer.png) 0 0 repeat-x;
@@ -181,7 +181,7 @@
 
 body.simple .copyright {
     text-align: center;
-    color: #666;
+    color: #444;
     font-size: 11px;
 }
 
@@ -226,18 +226,18 @@ body.simple #page-body > h2.solo {
     margin: 0;
     padding: 8px 10px 8px 16px;
     text-align: left;
-    color: #999;
+    color: #888;
     background: url({T_THEME_PATH}/images/nav_links.gif) 6px 51% no-repeat;
 }
 .nav-links:hover { background-position: 8px 51%; }
 .nav-links .rightside { float: right; }
-.nav-links .time { color: #666; }
+.nav-links .time { color: #444; }
 
 .nav-extra {
     float: right;
     font-size: 11px;
     margin: 8px;
-    color: #999;
+    color: #888;
 }
 
 #footer .nav-links {

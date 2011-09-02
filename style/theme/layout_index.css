@@ -287,7 +287,7 @@ ul.topiclist dd.searchextra {
 	margin-left: 5px;
 	padding: 0.2em 0;
 	font-size: 11px;
-	color: #333333;
+	color: #000;
 	border-left: none;
 	clear: both;
 	width: 98%;
@@ -336,7 +336,7 @@ div[class].topic-actions {
     padding-top: 2px;
     height: 24px;
 }
-.buttons div.locked-icon a, .buttons div.locked-icon a:visited { color: #999; }
+.buttons div.locked-icon a, .buttons div.locked-icon a:visited { color: #888; }
 .buttons div.locked-icon a:hover { color: #cb296a; }
 .buttons div.locked-icon a:active { color: #cc8b29; }
 
