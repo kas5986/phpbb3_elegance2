@@ -541,14 +541,8 @@ dl.thumbnail dt a:hover img {
     Reported / unapproved
 */
 p.rules {
-<<<<<<< HEAD
     background: #2b2220;
     border: solid 2px #45312c;
-=======
-    background: rgba(255, 255, 255, 0.3);
-    border: solid 2px #efd7e0;
-    border-color: rgba(203, 41, 106, 0.2);
->>>>>>> master
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -556,9 +550,6 @@ p.rules {
 	margin: 5px 10px;
 	font-size: 12px;
 	line-height: 1.4em;
-}
-.old-ie p.rules {
-    background: #f4e9ee;
 }
 p.rules:hover {
     border-color: #6d483c;
