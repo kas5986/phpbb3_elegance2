@@ -396,7 +396,7 @@ li.pagination {
 	padding: 0 2px;
 	margin: 0 2px;
 	font-weight: normal;
-    border-color: #000;
+    border: 1px solid #000;
     background-color: #f36b42;
     color: #000;
 }
