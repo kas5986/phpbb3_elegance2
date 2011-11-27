@@ -85,6 +85,7 @@ ul.topiclist .widescreen-optimised dt {
 }
 
 ul.topiclist .widescreen-optimised dt .wrap-content {
+	display: block;
 	padding-right: 465px;
 }
 
