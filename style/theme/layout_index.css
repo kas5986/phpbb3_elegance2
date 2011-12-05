@@ -26,6 +26,7 @@ div.forabg, div.forumbg {
 
 ul.topiclist {
     display: block;
+    clear: both;
     list-style-type: none;
     margin: 0;
 }
@@ -77,16 +78,6 @@ ul.topiclist dt {
 	width: 50%;
 	padding-left: 5px;
 	padding-right: 5px;
-}
-
-ul.topiclist .widescreen-optimised dt {
-	width: 100%;
-	margin-right: -465px;
-}
-
-ul.topiclist .widescreen-optimised dt .wrap-content {
-	display: block;
-	padding-right: 465px;
 }
 
 ul.topiclist dd {
@@ -161,10 +152,6 @@ li.header dt, li.header dd {
     color: #000;
 }
 
-li.header dt {
-	margin-right: -465px;
-}
-
 li.header dd {
 	margin-left: 1px;
 }
@@ -200,7 +187,7 @@ dl.icon dt div.extra {
 }
 
 dd.posts, dd.topics, dd.views {
-	width: 90px;
+	width: 8%;
 	text-align: center;
 	line-height: 2.2em;
 	font-size: 12px;
@@ -237,7 +224,7 @@ dl.icon dt li {
 }
 
 dd.lastpost {
-	width: 230px;
+	width: 25%;
 	font-size: 11px;
 }
 
@@ -274,7 +261,7 @@ dd.extra {
 
 dd.mark {
 	float: right !important;
-	width: 90px;
+	width: 9%;
 	text-align: center;
 	line-height: 200%;
 	font-size: 11px;
